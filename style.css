@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  height: 100vh;
+  max-height: auto;
+  background-color: #2d2013;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-weight: bold !important;
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+
+i {
+  cursor: pointer;
+}
+
+.random button {
+  padding: 6px 10px;
+  background-color: #e9ecef;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.image {
+  position: relative;
+  cursor: pointer;
+  height: 180px;
+  width: 180px;
+  border: 4px solid #fff;
+  padding: 0;
+  margin: 20px auto;
+}
+
+.image img {
+  height: 100%;
+  width: 100%;
+}
+
+.image:hover .overlay{
+opacity: 1;
+}
+.image .overlay {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+.overlay span{
+  font-size: 20px;
+  text-align: center;
+  text-transform: capitalize;
+    transition: all 0.5s ease;
+    opacity: 0;
+}
+.overlay:hover span{
+opacity: 1;
+}
+.single-meal-image{
+  height: 320px;
+  width: 250px;
+  border: 4px solid #fff;
+  padding: 0;
+  margin: 20px auto;
+}
+.single-meal-image img{
+  height: 100%;
+  width: 100%;
+}
+#single-meal ul{
+    list-style: none;
+}
+#single-meal li{
+  display: inline-block;
+padding: 2px 5px;
+border-radius: 5px;
+font-weight: bold;
+background-color: #FFF;
+color: #000;
+font-size: 11px;
+margin: 0 5px 5px 0;
+}

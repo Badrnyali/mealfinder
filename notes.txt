@@ -1,0 +1,3 @@
+To search for certain type of food = https://www.themealdb.com/api/json/v1/1/search.php?s=${meal}
+To look for the ingredient of a meal = https://www.themealdb.com/api/json/v1/1/lookup.php?i=${mealID}
+To get random food https://www.themealdb.com/api/json/v1/1/random.php
